@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     0       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        ""      # Project title
-  author:       ""      # Your name
+  wokwi_id:     458484007829326849       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "VarunaK 1st Test"      # Project title
+  author:       "Varuna Kistow"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "Just some random gates on the first template. connected to a simple 7-segment."      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -20,20 +20,20 @@ pinout:
   ui[1]: ""
   ui[2]: ""
   ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[4]: "input A"
+  ui[5]: "input B"
+  ui[6]: "input C"
+  ui[7]: "input D"
 
   # Outputs
   uo[0]: ""
   uo[1]: ""
   uo[2]: ""
   uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[4]: "output NG"
+  uo[5]: "output Inverter"
+  uo[6]: "output OR"
+  uo[7]: "output AND"
 
   # Bidirectional pins
   uio[0]: ""
